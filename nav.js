@@ -4,7 +4,7 @@
 
   document.body.insertAdjacentHTML('afterbegin', `
   <nav>
-    <a class="nav-logo" href="index.html">Omni<span>One</span></a>
+    <a class="nav-logo" href="index.html">OmniOne</a>
     <ul class="nav-links">
       <li><a href="index.html" ${a('index.html')}>Home</a></li>
       <li><a href="about.html" ${a('about.html')}>About</a></li>
@@ -12,6 +12,7 @@
       <li><a href="get-involved.html" ${a('get-involved.html')}>Get Involved</a></li>
       <li><a href="services.html" ${a('services.html')}>Services</a></li>
       <li><a href="faq.html" ${a('faq.html')}>FAQ Videos</a></li>
+      <li><a href="contact.html" ${a('contact.html')}>Contact</a></li>
     </ul>
     <a class="nav-cta" href="https://opencollective.com/omnione" target="_blank" rel="noopener">Donate</a>
   </nav>`);
@@ -19,32 +20,18 @@
   document.body.insertAdjacentHTML('beforeend', `
   <footer>
     <div class="footer-inner">
-      <div class="footer-grid">
-        <div class="footer-brand">
-          <h3>OmniOne</h3>
-          <p>The world's first Omni-Beneficial Societal Blueprint — building the infrastructure for a future worth living in.</p>
+      <div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:24px;margin-bottom:32px;">
+        <div>
+          <h3 style="font-family:'Playfair Display',serif;font-size:22px;font-style:italic;color:var(--teal-bright);font-weight:400;margin-bottom:8px;">OmniOne</h3>
+          <p style="font-size:14px;color:var(--cream-dim);margin:0;max-width:360px;">The world's first Omni-Beneficial Societal Blueprint — building the infrastructure for a future worth living in.</p>
         </div>
-        <div class="footer-col">
-          <h4>Navigate</h4>
-          <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="evidence.html">Evidence &amp; Impact</a></li>
-            <li><a href="get-involved.html">Get Involved</a></li>
-            <li><a href="services.html">Services</a></li>
-            <li><a href="faq.html">FAQ Videos</a></li>
-          </ul>
-        </div>
-        <div class="footer-col">
-          <h4>Ecosystem</h4>
-          <ul>
-            <li><a href="https://omni1eco.wixsite.com/nexus" target="_blank" rel="noopener">Nexus</a></li>
-            <li><a href="https://www.greenearthvision.org" target="_blank" rel="noopener">Green Earth Vision</a></li>
-            <li><a href="https://omnione.notion.site/What-is-an-ETHOS-7cf907ac069c4d62ade1ac028b5c13d3" target="_blank" rel="noopener">ETHOS</a></li>
-            <li><a href="https://opencollective.com/omnione" target="_blank" rel="noopener">Donate</a></li>
-            <li><a href="https://calendly.com/info-greenearthvision" target="_blank" rel="noopener">Schedule a Call</a></li>
-            <li><a href="contact.html">Contact</a></li>
-          </ul>
+        <div style="display:flex;gap:32px;flex-wrap:wrap;">
+          <a href="about.html" style="font-family:'DM Sans',sans-serif;font-size:12px;letter-spacing:1.5px;text-transform:uppercase;color:var(--cream-dim);text-decoration:none;">About</a>
+          <a href="evidence.html" style="font-family:'DM Sans',sans-serif;font-size:12px;letter-spacing:1.5px;text-transform:uppercase;color:var(--cream-dim);text-decoration:none;">Evidence</a>
+          <a href="get-involved.html" style="font-family:'DM Sans',sans-serif;font-size:12px;letter-spacing:1.5px;text-transform:uppercase;color:var(--cream-dim);text-decoration:none;">Get Involved</a>
+          <a href="services.html" style="font-family:'DM Sans',sans-serif;font-size:12px;letter-spacing:1.5px;text-transform:uppercase;color:var(--cream-dim);text-decoration:none;">Services</a>
+          <a href="contact.html" style="font-family:'DM Sans',sans-serif;font-size:12px;letter-spacing:1.5px;text-transform:uppercase;color:var(--cream-dim);text-decoration:none;">Contact</a>
+          <a href="https://opencollective.com/omnione" target="_blank" rel="noopener" style="font-family:'DM Sans',sans-serif;font-size:12px;letter-spacing:1.5px;text-transform:uppercase;color:var(--teal-light);text-decoration:none;">Donate</a>
         </div>
       </div>
       <div class="footer-bottom">
